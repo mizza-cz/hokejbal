@@ -1,0 +1,99 @@
+.footer{
+   background-color: var(--color-dark);
+   position: relative;
+   .p2{
+      color: var(--color-light);
+      text-align: center;
+   }
+   &__links{
+      display: flex;
+      flex-wrap: wrap;
+      @include media-breakpoint-down(lg){
+         width: 100%;
+         justify-content: center;
+         order: -1;
+         margin-bottom: 20px;
+      }
+      li{
+         padding: 0 12px;
+      }
+      a{
+         color: var(--color-light);
+         font-size: 14px;
+         text-decoration-color: transparent;
+         &:hover{
+            text-decoration-color: var(--color-light);
+         }
+      }
+   }
+   .navbar{
+      justify-content: center;
+      display: flex;
+      margin-bottom: 40px;
+      @include media-breakpoint-down(lg){
+         margin-bottom: 20px;
+      }
+      &__menu{
+         padding-left: 0;
+         @include media-breakpoint-down(xl){
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+         }
+         &-list{
+            @include media-breakpoint-down(xl){
+               width: auto;
+               padding: 0 16px;
+               height: auto;
+            }
+         }
+      }
+   }
+   &__inner{
+      padding-top: 100px;
+      padding-bottom: 50px;
+      max-width: 1060px;
+      margin: 0 auto;
+      @include media-breakpoint-down(xl){
+         padding-top: 80px;
+         padding-bottom: 24px;
+      }
+   }
+   &__logo{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -32px;
+      height: 110px;
+      width: 110px;
+      margin: 0 auto;
+      @include media-breakpoint-down(xl){
+         width: 90px;
+         height: 90px;
+      }
+   }
+}
+#scrollToTopBtn{
+   border: none;
+   background-color: transparent;
+   outline: none;
+   cursor: pointer;
+   &:hover{
+      svg{
+         transform: scale(1.2);
+      }
+   }
+  
+   svg{
+      transition: all .3s;
+      width: 16px;
+      height: 16px;
+      fill: var(--color-footer);
+   }
+}
+.copyright{
+   margin-top: 62px;
+   @include media-breakpoint-down(xl){
+      margin-top: 24px;
+   }
+}

@@ -1,0 +1,20 @@
+.link{
+   background-color: var(--color-dark);
+   font-size: 12px;
+   font-weight: 500;
+   font-style: normal;
+   line-height: normal;
+   text-align: center;
+   color: var(--color-light);
+   border-radius: 4px;
+   display: block;
+   width: fit-content;
+   margin: 0 auto;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 9px 24px;
+   transition: all .3s;
+   &:hover{
+      transform: scale(1.1);
+   }
+}

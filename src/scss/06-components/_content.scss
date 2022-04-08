@@ -1,0 +1,69 @@
+.content {
+  &::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+.h1,
+.o-content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: normal;
+  @include media-breakpoint-down(md) {
+    font-size: 32px;
+    line-height: normal;
+  }
+}
+.h2,
+.o-content h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: normal;
+  @include media-breakpoint-down(md) {
+    font-size: 24px;
+    line-height: normal;
+  }
+}
+.h3,
+.o-content h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  @include media-breakpoint-down(md) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.h4,
+.o-content h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: normal;
+  @include media-breakpoint-down(md) {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--color-light);
+  transition: text-decoration-color 0.3s;
+  &:hover {
+    text-decoration-color: transparent;
+  }
+}
+.p2{
+  font-size: 14px;
+  line-height: normal;
+}

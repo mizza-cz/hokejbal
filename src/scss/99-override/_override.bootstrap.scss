@@ -1,0 +1,6 @@
+.container {
+  @include media-breakpoint-down(xxl) {
+    max-width: 100%;
+  }
+}
+
