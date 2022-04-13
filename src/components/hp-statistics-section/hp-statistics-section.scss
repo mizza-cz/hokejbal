@@ -39,6 +39,9 @@
       margin-bottom: 6px;
       a{
          color: var(--color-text-team);
+         &:hover{
+            text-decoration: underline;
+         }
       }
    }
    &__list{

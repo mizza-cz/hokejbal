@@ -21,6 +21,9 @@ td{
    padding: 10px 16px 12px !important;
    a{
       font-weight: 500;
+      &:hover{
+         text-decoration: underline;
+      }
    }
 }
 .team{
