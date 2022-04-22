@@ -1,0 +1,28 @@
+q{
+   border-left: 6px solid var(--color-red);
+   padding: 32px 0;
+   display: block;
+   margin: 40px 0;
+   padding-left: 44px;
+   @include media-breakpoint-down(md){
+      padding: 20px 0;
+      padding-left: 24px;
+   }
+   .h3{
+      color: var(--color-red);
+      margin-bottom: 14px;
+   }
+   p{
+      font-size: 24px;
+      line-height: 1.33;
+      max-width: 710px;
+      @include media-breakpoint-down(md){
+         font-size: 18px;
+         line-height: 1.5;
+       }
+   }
+   &::before,
+   &::after{
+     display: none;
+   }
+ }
