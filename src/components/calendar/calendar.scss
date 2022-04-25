@@ -45,7 +45,6 @@
  
  .fc-rtl {
    text-align: right; }
- 
  body .fc {
    /* extra precedence to overcome jqui */
    font-size: 1em; }
@@ -340,21 +339,8 @@
    background-color: #ffffff;
    color: #5d5386;
    position: relative;
-   /* default BACKGROUND color */ }
-//  .fc-event:before,
-//  .fc-event-dot:before{
-//      content: "";
-//      position: absolute;
-//      left: 0;
-//      bottom: -2px;
-//      width: 50px;
-//      height: 100%;
-//      border-left: 3px solid #5d5386;
-//      border-bottom: 3px solid #5d5386;
-//      -webkit-border-radius: 3px 0px 0px 3px;
-//      -moz-border-radius: 3px 0px 0px 3px;
-//      border-radius: 3px 0px 0px 3px;
-//  }
+   }
+
  .fc-event .fc-title {
      font-weight: 500;
      width: 100%;
@@ -372,7 +358,6 @@
      img{
         width: 40px;
         height: 40px;
-      //   position: absolute;
         left: 0;
         right: 0;
         margin: 0 auto 4px;
@@ -387,14 +372,13 @@
  .fc-event,
  .fc-event:hover {
    color: #fff;
-   /* default TEXT color */
    text-decoration: none;
-   /* if <a> has an href */ }
+  }
  
  .fc-event[href],
  .fc-event.fc-draggable {
    cursor: pointer;
-   /* give events with links and draggable events a hand mouse pointer */ }
+  }
  
  .fc-not-allowed,
  .fc-not-allowed .fc-event {
@@ -632,7 +616,6 @@
  */
  /* Colors
  --------------------------------------------------------------------------------------------------*/
- .fc-past{}
  
  .fc-unthemed .fc-popover {
    background-color: #fff; }
@@ -942,12 +925,7 @@
    min-height: 3em;
    /* all-day section will never get shorter than this */ }
  
- .fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton {
-   // padding-bottom: 1em;
-   /* give space underneath events for clicking/selecting days */ }
- 
- /* TimeGrid axis running down the side (for both the all-day area and the slot area)
- --------------------------------------------------------------------------------------------------*/
+
  .fc .fc-axis {
    /* .fc to overcome default cell styles */
    vertical-align: middle;
