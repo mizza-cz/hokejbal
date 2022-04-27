@@ -1,0 +1,43 @@
+<section class="c-matches-section col-xl-8">
+   <h1 class="h1 mb-md-8 mb-4">
+      EXTRALIGA MUŽŮ 2021/2022
+   </h1>
+   <form action="" class="menu__form mb-6">
+      <label class="o-select menu-section__label">
+         <select class="js-select">
+            <option>2021/22</option>
+            <option value="">2020/21</option>
+            <option value="">2019/20</option>
+            <option value="">2018/19</option>
+            <option value="">2017/18</option>
+         </select>
+      </label>
+     <label class="o-select ">
+         <select class="js-select menu-section__label">
+            <option>Vybrat měsíc</option>
+            <option value="">Leden</option>
+            <option value="">Únor</option>
+            <option value="">Květen</option>
+         </select>
+      </label>
+   </form>
+    <div class="tabs-wrapper">
+      {% include "@components/tabs/tabs-3.twig" %}
+      <div class="tab-content tab-active" id="vse">
+         {% include "@components/match/match.twig" %}
+         {% include "@components/match/match-3.twig" %}
+         {% include "@components/match/match-2.twig" %}
+         {% include "@components/match/match.twig" %}
+         {% include "@components/match/match-2.twig" %}
+      </div>
+      <div class="tab-content" id="venku">
+         {% include "@components/match/match-3.twig" %}
+         {% include "@components/match/match-2.twig" %}
+         {% include "@components/match/match-2.twig" %}
+      </div>
+      <div class="tab-content" id="doma">
+         {% include "@components/match/match.twig" %}
+         {% include "@components/match/match-3.twig" %}
+      </div>
+    </div>
+</section>

@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>04.0_soupiska - Název projektu</title>
+	<title>05.0_zapasy - Název projektu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 	<meta name="format-detection" content="telephone=no" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -195,281 +195,169 @@
 		<main class="main" aria-label="Hlavní obsah">
 			<div class="container">
 				<div class="row">
-					<section class="c-team-section col-xl-8">
-						<h1 class="h1 mb-md-8 mb-4">SOUPISKA - 2021/2022</h1>
+					<section class="c-matches-section col-xl-8">
+						<h1 class="h1 mb-md-8 mb-4">
+							EXTRALIGA MUŽŮ 2021/2022
+						</h1>
+						<form action="" class="menu__form mb-6">
+							<label class="o-select menu-section__label">
+								<select class="js-select">
+									<option>2021/22</option>
+									<option value="">2020/21</option>
+									<option value="">2019/20</option>
+									<option value="">2018/19</option>
+									<option value="">2017/18</option>
+								</select>
+							</label>
+							<label class="o-select ">
+								<select class="js-select menu-section__label">
+									<option>Vybrat měsíc</option>
+									<option value="">Leden</option>
+									<option value="">Únor</option>
+									<option value="">Květen</option>
+								</select>
+							</label>
+						</form>
 						<div class="tabs-wrapper">
 							<ul class="tabs mb-6">
 								<li>
-									<a href="#" class="tab " data-id="table-soupiska">Klasická soupiska</a>
+									<a href="#" class="tab active" data-id="vse">vše</a>
 								</li>
 								<li>
-									<a href="#" class="tab active" data-id="foto-soupiska">Foto-soupiska</a>
+									<a href="#" class="tab " data-id="venku">pouze venku</a>
+								</li>
+								<li>
+									<a href="#" class="tab " data-id="doma">pouze doma</a>
 								</li>
 							</ul>
-							<div class="tab-content " id="table-soupiska">
-								<div class="o-content">
-									<table>
-										<thead>
-											<tr>
-												<th>#</th>
-												<th>post</th>
-												<th>jméno</th>
-												<th>narozen</th>
-												<th>věk</th>
-												<th>výška</th>
-												<th>váha</th>
-												<th>hůl</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>B</td>
-												<td>Miroslav Solar</td>
-												<td>3.4.2000</td>
-												<td>18 let</td>
-												<td>181 cm</td>
-												<td>79 kg</td>
-												<td>L</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
+							<div class="tab-content tab-active" id="vse">
+								<a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result win h2">
+										3:6
+									</div>
+								</a> <a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result lose h2">
+										6:3
+									</div>
+								</a> <a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result  h2">
+										-:-
+									</div>
+								</a> <a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result win h2">
+										3:6
+									</div>
+								</a> <a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result  h2">
+										-:-
+									</div>
+								</a>
 							</div>
-							<div class="tab-content tab-active " id="foto-soupiska">
-								<h2 class="h2">Brankáři</h2>
-								<ul class="row g-10">
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-								</ul>
-								<h2 class="h2">OBRÁNCI</h2>
-								<ul class="row g-10">
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-								</ul>
-								<h2 class="h2">ÚTOČNÍCI</h2>
-								<ul class="row g-10">
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-									<li class="col-lg-6 col-sm-6 c-team-section__item">
-										<a href="#" class="c-team-section__img">
-											<img src="images/content/hrac.jpeg" loading="lazy" alt="">
-											<span class="c-team-section__number">8</span>
-										</a>
-										<div class="c-team-section__info">
-											<a href="#">
-												<h3 class="h3">Jméno Příjmení</h3>
-											</a>
-											<span>25 let / 198 cm / 98 kg</span>
-										</div>
-									</li>
-								</ul>
+							<div class="tab-content" id="venku">
+								<a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result lose h2">
+										6:3
+									</div>
+								</a> <a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result  h2">
+										-:-
+									</div>
+								</a> <a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result  h2">
+										-:-
+									</div>
+								</a>
+							</div>
+							<div class="tab-content" id="doma">
+								<a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result win h2">
+										3:6
+									</div>
+								</a> <a href="#" class="match">
+									<div class="match__logo">
+										<img src="images/content/logo.png" alt="">
+									</div>
+									<div class="match__info">
+										<p class="p2 mb-3">So 21. 12. 2021, 12:00</p>
+										<h2 class="h4">TJ Snack Dobřany</h2>
+										<h2 class="h4">HBC Hradec Králové</h2>
+									</div>
+									<div class="match__result lose h2">
+										6:3
+									</div>
+								</a>
 							</div>
 						</div>
 					</section>
