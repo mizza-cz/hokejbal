@@ -1,10 +1,14 @@
 {% extends "@components/base/base.twig" %}
-   {% set title = "03.0_clanky" %}
+   {% set title = "04.0_hrac" %}
      {% block main %}
       <div class="container">
         <div class="row">
           <div class="col-xl-8">
-            {% include "@components/posts-section/posts-section.twig" %}
+            {% include "@components/player-section/player-section.twig" %}
+            <div class="tabs-wrapper">
+              {% include "@components/tabs/tabs-4.twig" %}
+              {% include "@components/player-detail-section/player-detail-section.twig" %}
+            </div>
           </div>
           {% include "@components/aside/aside.twig" %}
         </div>

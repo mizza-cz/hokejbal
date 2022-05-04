@@ -5,7 +5,9 @@
    {% block main %}
       <div class="container">
         <div class="row">
-            {% include "@components/partners-section/partners-section.twig" %}
+            <div class="col-xl-8">
+               {% include "@components/partners-section/partners-section.twig" %}
+            </div>
             {% include "@components/aside/aside.twig" %}
         </div>
       </div>

@@ -3,7 +3,9 @@
      {% block main %}
      <div class="container">
         <div class="row">
-          {% include "@components/matches-section/matches-section.twig" %}
+          <div class="col-xl-8">
+            {% include "@components/matches-section/matches-section.twig" %}
+          </div>
           {% include "@components/aside/aside.twig" %}
         </div>
       </div>
