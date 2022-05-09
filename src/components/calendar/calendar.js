@@ -3,7 +3,7 @@
  (function () {    
      'use strict';
     jQuery(function() {
-       jQuery('#calendar').fullCalendar({
+       jQuery('.calendar-js').fullCalendar({
           locale: 'cz',
           defaultView: 'month',
           editable: true,
@@ -19,7 +19,7 @@
           events: [
              {
                 id: '1',
-                start: '2022-04-05',
+                start: '2022-05-05',
                 title: 'Pardubice',
                 icon : "images/teams/2.png",
                 url: '/akce-pardubice',
@@ -27,7 +27,7 @@
              },
              {
                id: '2',
-               start: '2022-04-08',
+               start: '2022-05-08',
                title: '18:00',
                icon:"images/content/logo.png",
                url: '/akce', 
