@@ -3,7 +3,7 @@
  (function () {    
      'use strict';
     jQuery(function() {
-       jQuery('.calendar-js').fullCalendar({
+       jQuery('.js-calendar').fullCalendar({
           locale: 'cz',
           defaultView: 'month',
           editable: true,

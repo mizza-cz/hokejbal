@@ -30,7 +30,8 @@ td{
       }
    }
 }
-.team{
+.team,
+tr.team{
   td{
    color: var(--color-text-team);
    font-weight: 500;

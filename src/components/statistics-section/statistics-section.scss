@@ -2,14 +2,18 @@
    background-color: var(--color-pale-grey);
    padding-top: 32px;
    padding-bottom: 48px;
+   td a{
+      color: var(--color-dark);
+      text-decoration-color: transparent;
+      &:hover{
+         text-decoration: underline;
+      }
+   }
    &__table{
-      overflow-x: auto;
       @include media-breakpoint-down(sm){
          padding-bottom: 16px;
          margin-bottom: -16px;
-         .table{
-            width: 600px;
-         }
+        
       }
    }
    .link{
