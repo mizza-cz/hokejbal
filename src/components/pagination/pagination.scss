@@ -1,0 +1,26 @@
+.page-link{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   color: #000;
+   &:hover{
+      color: var(--color-red);
+      svg{
+         fill:  var(--color-red);;
+      }
+   }
+   svg{
+      transition: all .3s;
+      width: 16px;
+      height: 16px;
+   }
+}
+.page-item{
+   padding: 0 4px;
+   margin-bottom: 8px;
+}
+.page-item.active .page-link{
+   background: var(--color-red);
+   border-color: var(--color-red);
+}
