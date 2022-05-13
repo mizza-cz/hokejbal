@@ -25,7 +25,6 @@
       padding-left: 26px;
       position: relative;
       text-transform: uppercase;
-      
       &::before{
          content: '';
          position: absolute;
@@ -42,41 +41,32 @@
    text-align: left; 
    margin-top: -6px;
 }
- 
- .fc-rtl {
-   text-align: right; }
- body .fc {
-   /* extra precedence to overcome jqui */
-   font-size: 1em; }
- 
- /* Colors
- --------------------------------------------------------------------------------------------------*/
- .fc-highlight {
-   /* when user is selecting cells */
-   background: #bce8f1;
-   opacity: .3; }
- 
- .fc-bgevent {
-   /* default look for background events */
-   background: #8fdf82;
-   opacity: .3; }
- 
- .fc-nonbusiness {
-   /* default look for non-business-hours areas */
-   /* will inherit .fc-bgevent's styles */
-   background: rgba(52,40,104,.05); }
- 
- /* Buttons (styled <button> tags, normalized to work cross-browser)
- --------------------------------------------------------------------------------------------------*/
- .fc button {
-   box-sizing: border-box;
-   margin: 0;
-   white-space: nowrap;
-   cursor: pointer; }
- 
- .fc button::-moz-focus-inner {
-   margin: 0;
-   padding: 0; }
+.fc-rtl {
+  text-align: right; }
+body .fc {
+  font-size: 1em;
+}
+.fc-highlight {
+  background: #bce8f1;
+  opacity: .3; 
+}
+.fc-bgevent {
+  background: #8fdf82;
+  opacity: .3; 
+}
+.fc-nonbusiness {
+  background: rgba(52,40,104,.05); 
+}
+.fc button {
+  box-sizing: border-box;
+  margin: 0;
+  white-space: nowrap;
+  cursor: pointer;
+} 
+.fc button::-moz-focus-inner {
+  margin: 0;
+  padding: 0; 
+}
  
  
  

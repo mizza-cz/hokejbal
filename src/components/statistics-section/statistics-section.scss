@@ -1,4 +1,7 @@
 .c-statistics-section{
+   table{
+      margin-bottom:0;
+   }
    background-color: var(--color-pale-grey);
    padding-top: 32px;
    padding-bottom: 48px;
@@ -31,6 +34,7 @@
 }
 
 .top-players{
+   
    &__num{
       margin-bottom: 6px;
       margin-left: auto;

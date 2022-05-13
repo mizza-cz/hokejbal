@@ -5,7 +5,6 @@
    margin-right: -6px;
    &__item{
       padding: 0 6px;
-
    }
    &__link{
       height: 23px;
@@ -26,16 +25,13 @@
          display: block;
 
        }
-     
    }
 }
-
 .header__top .social{
    @include media-breakpoint-down(xl){
       display: none;
    }
 }
-
 .footer .social{
    @include media-breakpoint-down(lg){
       margin: 0 auto;

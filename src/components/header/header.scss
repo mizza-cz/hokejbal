@@ -75,7 +75,6 @@
       @include media-breakpoint-down(sm){
          display: none;
       }
-      
       span{
          display: block;
          position: absolute;
@@ -102,7 +101,6 @@
          margin-bottom: 16px;
          width: 100%;
       }
-      
    }
 }
 .navbar{
@@ -166,7 +164,6 @@
          text-transform: uppercase;
          transition: all .3s;
          @include media-breakpoint-down(xl){
-           
             width: 100%;
          }
       }
