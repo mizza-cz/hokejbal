@@ -5,7 +5,6 @@
    margin-right: -4px;
    border-bottom: 1px solid var(--color-silver);
    flex-wrap: wrap;
-
    li{
       padding: 0 4px;
       margin-top: 8px;
@@ -30,7 +29,6 @@
       border-bottom: none;
    }
 }
-
 .tab-content{
    display: none;
    &.tab-active{
